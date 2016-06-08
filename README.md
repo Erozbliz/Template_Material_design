@@ -1,2 +1,8 @@
-# Template_Material_design
+# Template Material Design
 A Template using Material Design (materialize)
+
+The template is under construction
+
+I use :
+http://materializecss.com/
+
