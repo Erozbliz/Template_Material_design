@@ -31,7 +31,7 @@
           <li><a href="#scrollspy3" class="">A Propos</a></li>
           <li><a href="#scrollspy4" class="">Me contacter</a></li>
         </ul>
-        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        <a href="#" data-activates="nav-mobile" class="button-collapse white-text"><i class="material-icons">menu</i></a>
       </div>
     </nav>
   </div>
@@ -135,6 +135,58 @@
           </div>
         </div>
       </div>
+
+      <!-- _____________Card_____________ -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="card blue darken-1 z-depth-3 overShadow">
+            <div class="card-content white-text">
+              <div class="icon-block">
+                <h2 class="center white-text"><i class="material-icons">flash_on</i></h2>
+                <h5 class="center">Speeds up development</h5>
+                <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+              </div>
+            </div>
+            <div class="card-action">
+              <a href="#" class="grey-text text-darken-3">This is a link</a>
+              <a href="#" class="grey-text text-darken-3">This is a link</a>
+            </div>
+          </div>
+        </div>
+
+         <div class="col s12 m4">
+          <div class="card blue darken-1 z-depth-3 overShadow">
+            <div class="card-content white-text">
+              <div class="icon-block">
+                <h2 class="center white-text"><i class="material-icons">flash_on</i></h2>
+                <h5 class="center">Speeds up development</h5>
+                <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+              </div>
+            </div>
+            <div class="card-action">
+              <a href="#" class="grey-text text-darken-3">This is a link</a>
+              <a href="#" class="grey-text text-darken-3">This is a link</a>
+            </div>
+          </div>
+        </div>
+
+         <div class="col s12 m4">
+          <div class="card blue darken-1 z-depth-3 overShadow">
+            <div class="card-content white-text">
+              <div class="icon-block">
+                <h2 class="center white-text"><i class="material-icons">flash_on</i></h2>
+                <h5 class="center">Speeds up development</h5>
+                <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+              </div>
+            </div>
+            <div class="card-action">
+              <a href="#" class="grey-text text-darken-3">This is a link</a>
+              <a href="#" class="grey-text text-darken-3">This is a link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- _____________end Card_____________ -->
 
     </div>
   </div>
@@ -318,7 +370,17 @@
       $('.scrollspy').scrollSpy();
       //start carousel
       $('.slider').slider({full_width: true});
-      //mobile
+   
+      $(".overShadow").hover(function () {
+          $(this).addClass('z-depth-4');
+          $(this).removeClass('z-depth-2');
+      }, function () {
+          $(this).removeClass('z-depth-4');
+          $(this).addClass('z-depth-2');
+      });
+
+     
+      
     });
 
 
