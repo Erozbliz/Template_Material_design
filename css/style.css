@@ -64,3 +64,8 @@ footer.page-footer {
 .img_sm{
   width : 80px !important;
 }
+
+.img_moocisen{
+  width : 300px !important;
+  padding-top: 50px;
+}
