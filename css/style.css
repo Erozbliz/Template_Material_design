@@ -69,3 +69,8 @@ footer.page-footer {
   width : 300px !important;
   padding-top: 50px;
 }
+
+/* Ajoute un padding pour les tags */
+.chip{
+  margin: 2px;
+}
